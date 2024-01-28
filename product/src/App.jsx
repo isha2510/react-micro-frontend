@@ -1,8 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
-
-import "./index.scss";
 import { Route, Routes } from "react-router-dom";
+import ProductLists from "./Components/ProductLists";
+import ProductPage from "./Components/ProductPage";
+import "./index.scss";
 
 const App = () => (
   <>

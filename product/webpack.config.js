@@ -45,7 +45,7 @@ module.exports = (_, argv) => ({
       filename: "product-app.js",
       remotes: {},
       exposes: { "./ProductApp": "./src/App.jsx",
-      "./ProductCard": "./src/Components/ProudctCard.jsx"},
+      "./ProductCard": "./src/Components/ProductCard.jsx"},
       shared: {
         ...deps,
         react: {
