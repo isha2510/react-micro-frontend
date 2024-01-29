@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./index.scss";
+import { Route, Routes } from "react-router-dom";
+import Orders from "./Components/Orders";
+import Checkout from "./Components/Checkout";
 
 const App = () => {
   return (
